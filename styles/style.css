@@ -1,0 +1,121 @@
+/* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
+
+
+/* Style the tab */
+
+body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.completed {
+    border-bottom: 5px solid rgb(72 115 62)!important;
+}
+
+.completed:hover {
+    background-color: #ddd;
+}
+
+.not-completed {}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 100%;
+    border-bottom: 5px solid rgb(189, 189, 189);
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+#categories-container {
+    display: flex;
+    justify-content: center;
+}
+
+.categories-button {
+    text-align: center;
+    background-color: rgb(72 115 62);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1em;
+    width: 25%;
+}
+
+.categories-button:hover {
+    background-color: rgb(95, 151, 82);
+}
+
+.categories-button-selected {
+    border: 3px solid black;
+}
+
+#addCart {
+    width: 30%;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    padding: 6px 12px;
+    border-top: none;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.title-section {
+    margin: 0px;
+    color: white;
+    background-color: rgb(72 115 62);
+}
+
+#Products {
+    border: none;
+}
+
+#displayProduct {
+    text-align: left;
+}
+
+#displayProduct label {
+    margin-left: 1rem;
+}
+
+#displayProduct div {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(72 115 62);
+}
+
+.footer p {
+    color: white;
+    margin: 10px;
+}
