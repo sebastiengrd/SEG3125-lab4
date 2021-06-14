@@ -58,7 +58,6 @@ body {
     color: white;
     margin: 1rem;
     padding: 1rem;
-    border-radius: 1em;
     width: 25%;
 }
 
@@ -117,5 +116,10 @@ body {
 
 .footer p {
     color: white;
-    margin: 10px;
+    margin: 0px;
+}
+
+.card {
+    margin: 1rem;
+    height: min-content;
 }
