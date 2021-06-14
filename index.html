@@ -13,7 +13,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <link href=’https://fonts.googleapis.com/css?family=Sofia’ rel=’stylesheet’/>
+
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
 <body>
@@ -96,9 +100,28 @@
     <div style="background-color: rgb(219, 219, 219); padding: 1em; margin-top: 2em;">
         <h1 style="text-align: center;">Take an appointment</h1>
 
-        <h3>Select a Service</h3>
-
-
+        <h3>Purpose of the appointment</h3>
+        <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">General Care
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Dentist
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Emergency
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Surgical Care
+            </label>
+        </div>
+        <br>
         <h3>Contact Informations</h3>
         <div class="form-group">
             <label for="name">Name:</label>
@@ -119,11 +142,11 @@
 
             <br><br>
 
-            <label class="control-label" for="date">Date</label>
+            <label class="control-label" for="date">Prefered Date</label>
             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
             <br>
 
-            <p>We will contact you in the next 2h in order to confirm the appointment</p>
+            <p>We will call you in the next 2h in order to confirm the appointment</p>
 
             <button type="submit" class="btn btn-primary" style="background-color: rgb(72 115 62);">Submit</button>
         </div>

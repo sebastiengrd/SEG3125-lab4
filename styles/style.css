@@ -112,6 +112,7 @@ body {
     bottom: 0;
     width: 100%;
     background-color: rgb(72 115 62);
+    max-width: none;
 }
 
 .footer p {
